@@ -1,14 +1,34 @@
 body { 
-     background-image: url(../../assets/photos/pexels-florian-holly-2584321-6308163.jpg);
+    background-image: url(../../assets/photos/pexels-florian-holly-2584321-6308163.jpg);
+    margin: 0;
 }
 
 .homePage {
     .mainTitle{
         color: white;
-        font-size: 3em;
+        font-size: 2.7em;
     }
     .title {
         color: white;
         font-size: 3em;
+    }
+    .intro-container {
+        height: 20em;
+        background-color: #FFF1E9;
+    
+        .photoAntoine {
+            height: 10em;
+            width: 10em;
+            border-radius: 95px;
+            object-fit: cover;
+        }
+    }
+    .portfolio-container{
+        height: 20em;
+        background-color: #FFF1E9;
+    }
+    .Apropos-container {
+        height: 20em;
+        background-color: #FFF1E9;
     }
 }
