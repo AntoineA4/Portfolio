@@ -3,13 +3,9 @@ import { useTranslation } from 'react-i18next';
 import '../Home/home.scss'; 
 import Header from '../../components/Header/header';
 import portrait from '../../assets/photos/portrait.jpg';
-import Modal from '../../components/Modals-card/modal';
 
 function Home() {
     const { t, i18n } = useTranslation();
-    const [isModalOpen, setIsModalOpen] = useState(false);
-    const openModal = () => setIsModalOpen(true);
-    const closeModal = () => setIsModalOpen(false);
     return (
         <div className='homePage'>
             <Header />
@@ -21,11 +17,6 @@ function Home() {
             </div>
             <div className="portfolio-container">
                 <h2>Portfolio</h2>
-                <button onClick={openModal}>Ouvrir la modale</button>
-                <Modal isOpen={isModalOpen} onClose={closeModal}>
-                <h2>Voici une modale !</h2>
-                <p>Ceci est un exemple de contenu dans la modale.</p>
-                </Modal>
                 <div className='card-section'>
                 </div>
             </div>
