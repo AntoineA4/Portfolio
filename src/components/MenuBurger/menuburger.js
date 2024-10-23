@@ -17,24 +17,26 @@ const BurgerMenu = () => {
     return (
       <>
         <div className="burger-icon" onClick={toggleMenu}>
-          <FontAwesomeIcon icon={isOpen ? faTimes : faBars} size="2x" />
+          <FontAwesomeIcon icon={faBars} size="2x" />
         </div>
   
         
         <div className={isOpen ? 'modal-menu open' : 'modal-menu'}>
           <ul className="nav-links">
             <li><a href="#home">{t('home')}</a></li>
-            <li><a href="#about">Portfolio</a></li>
-            <li><a href="#services">{t('about')}</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about-section">{t('about')}</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><a href="../../assets/Resume-Antoine-Gadrat.pdf" target="_blank" rel="noopener noreferrer">{t('resume')}</a></li>
             <li>
-                <a href="#contact">
+                <a href="https://www.linkedin.com/in/antoine-gadrat-9b749a32a/?trk=opento_sprofile_details">
                     <img src={logoLinkedin} alt='logo Linkedin' className='logoLinkedin' ></img>
                 </a>
             </li>
             <li>
-                <a href="#contact">
-                    <img src={githubLogo} alt='logo github'  className='logoGithub'></img></a>
+                <a href="https://github.com/AntoineA4?tab=repositories">
+                    <img src={githubLogo} alt='logo github'  className='logoGithub'></img>
+                </a>
             </li>
           </ul>
         </div>

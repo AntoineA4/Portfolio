@@ -1,15 +1,46 @@
 .Header-container {
     background-color: black;
-    height: 4em;
+    height: 4.2em;
     margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 2%;
 
-    .logoGithub {
-        background-color: white;
-        height: 3em;
+    .logos-container {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 4%;
+
+        .logoGithub {
+            background-color: white;
+            height: 3em;
+        }
+        .logoLinkedin {
+            background-color: white;
+            height: 3em;
+            margin-right: 20px;
+        }
     }
-    .logoLinkedin {
-        background-color: white;
-        height: 3em;
+    .language-container {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 5%;
+
+        .language-button {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+          }
+          
+          .language-button.active {
+            font-weight: bold;
+          }
     }
+    
+
+    
 
 }

@@ -1,4 +1,4 @@
-/* Icône du menu burger */
+
 .burger-icon {
     cursor: pointer;
     width: 30px;
@@ -17,22 +17,22 @@
     }
   }
   
-  /* Modale qui glisse depuis la droite */
+ 
   .modal-menu {
     position: fixed;
     top: 0;
-    right: -300px; /* Caché initialement en dehors de l'écran */
+    right: -300px; 
     width: 300px;
     height: 100%;
     background-color: #fff;
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
-    transition: right 0.3s ease;
+    transition: right 0.5s ease;
     z-index: 999;
-    overflow-y: auto; /* Ajout pour rendre le contenu défilant si nécessaire */
+    overflow-y: auto; 
   
-    /* Modale ouverte */
+    
     &.open {
-      right: 0; /* Fait glisser la modale sur l'écran */
+      right: 0; 
     }
   
     .close-icon {
@@ -46,6 +46,23 @@
       padding: 0;
       margin: 0;
       text-align: center;
+
+      .logoGithub {
+        height: 3.2em;
+        transition: height 0.3s ease;
+        &:hover {
+          height: 3.6em;
+        }
+      }
+      
+
+      .logoLinkedin {
+        height: 3em;
+        transition: height 0.3s ease;
+        &:hover {
+          height: 3.4em;
+        }
+      }
       
       li {
         padding: 20px;
@@ -58,19 +75,19 @@
         transition: color 0.3s ease;
   
         &:hover {
-          color: #007bff;
+          font-weight: bold;
         }
       }
     }
   }
   
-  /* Overlay sombre */
+
   .overlay {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     z-index: 998;
   }

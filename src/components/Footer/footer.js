@@ -9,14 +9,18 @@ function Footer() {
     return (
         <div className="footer-container">
             <h3>Contact</h3>
-            <div className='contactAndLinks'>
+            <div className='contactAndLinks' id="contact">
                 <div className='contact'>
                     <p>email: antoinegadrat@hotmail.fr</p>
-                    <p>tel: +336 24 49 59 38</p>
+                    <p>tel: +33 6 24 49 59 38</p>
                 </div>
                 <div className='links'>
-                    <img src={logoLinkedin} alt='logo Linkedin' className='logoLinkedin' ></img>
-                    <img src={githubLogo} alt='logo github'  className='logoGithub'></img>
+                    <a href="https://www.linkedin.com/in/antoine-gadrat-9b749a32a/?trk=opento_sprofile_details">
+                        <img src={logoLinkedin} alt='logo Linkedin' className='logoLinkedin' ></img>
+                    </a>
+                    <a href="https://github.com/AntoineA4?tab=repositories">
+                        <img src={githubLogo} alt='logo github'  className='logoGithub'></img>
+                    </a>
                 </div>
             </div>
         </div>

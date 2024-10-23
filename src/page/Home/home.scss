@@ -2,20 +2,31 @@ body {
     background-image: url(../../assets/photos/pexels-florian-holly-2584321-6308163.jpg);
     margin: 0;
     font-family: "Montserrat", sans-serif;
+    h2 {
+        font-size: 32px;
+    }
 }
 
 .homePage {
     .mainTitle{
         color: white;
         font-size: 2.7em;
+        margin-left: 2%;
     }
     .title {
         color: white;
         font-size: 3em;
+        margin-left: 6%;
     }
     .intro-container {
         height: 20em;
         background-color: #FFF1E9;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 10%;
+        padding-right: 10%;
     
         .photoAntoine {
             height: 10em;
@@ -27,9 +38,19 @@ body {
     .portfolio-container{
         height: 20em;
         background-color: #FFF1E9;
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .Apropos-container {
-        height: 20em;
+        height: 16em;
         background-color: #FFF1E9;
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 10%;
+        padding-right: 10%;
     }
 }
