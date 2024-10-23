@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { useTranslation } from 'react-i18next';
 import '../MenuBurger/menuburger.scss';
 import githubLogo from '../../assets/logo/github-mark.png';
