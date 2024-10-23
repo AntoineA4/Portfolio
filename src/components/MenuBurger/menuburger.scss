@@ -8,6 +8,7 @@
     flex-direction: column;
     justify-content: space-between;
     z-index: 1000;
+    padding-right: 2%;
   
     .line {
       background-color: #333;
@@ -30,15 +31,8 @@
     z-index: 999;
     overflow-y: auto; 
   
-    
     &.open {
       right: 0; 
-    }
-  
-    .close-icon {
-      font-size: 24px;
-      padding: 20px;
-      cursor: pointer;
     }
   
     .nav-links {
@@ -55,7 +49,6 @@
         }
       }
       
-
       .logoLinkedin {
         height: 3em;
         transition: height 0.3s ease;
