@@ -8,15 +8,20 @@ body {
 }
 
 .homePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     .mainTitle{
         color: white;
         font-size: 2.7em;
-        margin-left: 2%;
+        margin-left: -70%;
+        margin-top: 0;
     }
     .title {
         color: white;
         font-size: 3em;
-        margin-left: 6%;
+        margin-left: -60%;
+        margin-top: 0;
     }
     .intro-container {
         height: 20em;
@@ -25,8 +30,8 @@ body {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding-left: 10%;
-        padding-right: 10%;
+        width: 90%;
+        margin-top: 3%;
     
         .photoAntoine {
             height: 10em;
@@ -42,6 +47,11 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 90%;
+
+        .cards-section{
+            display: flex;
+        }
     }
     .Apropos-container {
         height: 16em;
@@ -50,7 +60,6 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-left: 10%;
-        padding-right: 10%;
+        width: 90%;
     }
 }

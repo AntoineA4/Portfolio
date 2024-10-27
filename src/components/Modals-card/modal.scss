@@ -4,18 +4,20 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Arrière-plan semi-transparent */
+    background-color: rgba(0, 0, 0, 0.7);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .modal-content {
-    background: white;
+    background-color: white;
     padding: 20px;
     border-radius: 8px;
+    width: 90%;
+    max-width: 600px;
     position: relative;
-    min-width: 300px;
+    text-align: center;
 }
 
 .modal-close {
@@ -24,6 +26,12 @@
     right: 10px;
     background: none;
     border: none;
-    font-size: 24px;
+    font-size: 20px;
     cursor: pointer;
+}
+
+.modal-cover {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
 }

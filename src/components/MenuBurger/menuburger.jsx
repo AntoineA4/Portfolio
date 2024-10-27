@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 import '../MenuBurger/menuburger.scss';
 import githubLogo from '../../assets/logo/github-mark.png';
 import logoLinkedin from '../../assets/logo/In-Blue-40.png';
+import resumePDF from'../../assets/resume.pdf';
 
 const BurgerMenu = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -27,7 +28,7 @@ const BurgerMenu = () => {
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#about-section">{t('about')}</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="../../assets/Resume-Antoine-Gadrat.pdf" target="_blank" rel="noopener noreferrer">{t('resume')}</a></li>
+            <li><a href={resumePDF} target="_blank" rel="noopener noreferrer">{t('resume')}</a></li>
             <li>
                 <a href="https://www.linkedin.com/in/antoine-gadrat-9b749a32a/?trk=opento_sprofile_details">
                     <img src={logoLinkedin} alt='logo Linkedin' className='logoLinkedin' ></img>
