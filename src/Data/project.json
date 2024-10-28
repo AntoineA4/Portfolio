@@ -4,7 +4,7 @@
 		"title": "Booki",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
 		"description": "Votre maison loin de chez vous. Que vous veniez de l'autre bout du monde, ou juste de quelques stations de RER, vous vous sentirez chez vous dans notre appartement.",
-		"skills": [
+		"tags": [
             "FrontEnd",
 			"Html5",
 			"CSS3"
@@ -15,7 +15,7 @@
 		"title": "Portfolio Sophie Bluel",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
 		"description": "Profitez du charme de la vie parisienne dans un magnifique appartement. A 3 minutes à pied du Canl Saint Martin, vous serez proche des transports, mais également de nombreux commerces. L'appartement est tout équipé, et possède également un parking pour ceux qui souhaitent se déplacer en voiture.",
-		"skills": [
+		"tags": [
             "FrontEnd",
 			"JavaScript",
 			"Html5",
@@ -27,7 +27,7 @@
 		"title": "Nina Carducci web site",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
 		"description": "Votre maison loin de chez vous. Que vous veniez de l'autre bout du monde, ou juste de quelques stations de RER, vous vous sentirez chez vous dans notre appartement.",
-		"skills": [
+		"tags": [
 			"JavaScript",
 			"SEO",
             "Optimized the website",
@@ -39,7 +39,7 @@
 		"title": "Kasa",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
 		"description": "Votre maison loin de chez vous. Que vous veniez de l'autre bout du monde, ou juste de quelques stations de RER, vous vous sentirez chez vous dans notre appartement.",
-		"skills": [
+		"tags": [
             "FrontEnd",
 			"JavaScript",
 			"React",
@@ -51,7 +51,7 @@
 		"title": "Mon vieux Grimoire",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
 		"description": "Votre maison loin de chez vous. Que vous veniez de l'autre bout du monde, ou juste de quelques stations de RER, vous vous sentirez chez vous dans notre appartement.",
-		"skills": [
+		"tags": [
 			"BackEnd",
 			"Node.js",
             "Express",
