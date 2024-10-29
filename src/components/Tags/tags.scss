@@ -1,14 +1,17 @@
-$kasa-color:#FF6060;
 
 .tags {
     display: flex;
     gap: 0.5rem;
     margin-top: 6%;
+    @media (max-width: 499px) {
+        flex-wrap: wrap;
+    
+    }
     
 
     .tag {
-        border-radius: 15px;
-        background-color: $kasa-color;
+        border-radius: 10px;
+        background-color: black;
         color: white;
         font-size: 14px;
         font-weight: 700;
@@ -18,8 +21,8 @@ $kasa-color:#FF6060;
         width: 200px;
         height: 30px;
         @media (max-width: 499px) {
-            font-size: 12px;
-        
+            font-size: 10px;
+            max-width: 30%;
         }
     }
 }

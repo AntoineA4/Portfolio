@@ -19,6 +19,10 @@
     max-width: 600px;
     position: relative;
     text-align: center;
+    @media (max-width: 499px) {
+        width: 60%;
+    
+    }
 }
 
 .modal-close {
@@ -33,7 +37,11 @@
 
 .modal-cover {
     width: 90%;
-    height: 30%;
+    height: 300px;
     margin-top: 15px;
-    object-fit: cover;
+    object-fit: fit;
+    @media (max-width: 499px) {
+        height: 30%;
+    
+    }
 }

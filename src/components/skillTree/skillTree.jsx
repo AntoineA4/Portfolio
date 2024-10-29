@@ -85,9 +85,9 @@ const SkillTree = () => {
           }))}
         edges={edges} 
         fitView 
-        panOnDrag={false}       // Désactive le déplacement
+        panOnDrag={true}       // Désactive le déplacement
         zoomOnScroll={false}    // Désactive le zoom avec la molette de la souris
-        zoomOnPinch={false}     // Désactive le zoom avec le pincement sur écran tactile
+        zoomOnPinch={true}     // Désactive le zoom avec le pincement sur écran tactile
         zoomOnDoubleClick={false} // Désactive le zoom au double-clic
       >
         <Controls />

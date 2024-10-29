@@ -25,6 +25,7 @@ const BurgerMenu = () => {
         <div className={isOpen ? 'modal-menu open' : 'modal-menu'}>
           <ul className="nav-links">
             <li><a href="#home">{t('home')}</a></li>
+            <li><a href='#skills'>{t('skills')}</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#about-section">{t('about')}</a></li>
             <li><a href="#contact">Contact</a></li>

@@ -1,10 +1,10 @@
 .card {
     display: flex;
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 200px;
     margin: 20px;
     border: 1px solid #ccc;
-    border-radius: 10px;
+    border-radius: 5px;
     overflow: hidden;
     position: relative; 
     cursor: pointer;
@@ -24,10 +24,16 @@
 
     .card-title {
         position: absolute;
-        bottom: 2%;
-        left: 3%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 24%;
+        bottom: 0%;
+        left: 0%;
         color: white;
-        border-radius: 5px;
+        background-color: black;
+        width: 100%;
         font-size: 15px;
         font-weight: bold;
         text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);

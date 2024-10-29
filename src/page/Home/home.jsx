@@ -17,9 +17,9 @@ function Home() {
             <p className='title'>{t('title')}</p>
             <div className="intro-container">
                 <img src={portrait} alt='Antoine Gadrat' className='photoAntoine' />
-                <p>{t('intro')}</p>
+                <p className='text'>{t('intro')}</p>
             </div>
-            <div className='skilltree-container'>
+            <div className='skilltree-container' id="skills">
                 <h2>{t('skills')}</h2>
                 <SkillTree />
             </div>
@@ -40,7 +40,8 @@ function Home() {
             </div>
             <div className="Apropos-container" id="about-section">
                 <h2>{t('about')}</h2>
-                <p>{t('about-text')}</p>
+                <p className='text'>{t('about-text')}</p>
+                <p className='text2'>{t('about-text2')}</p>
             </div>
         </div>
     );
