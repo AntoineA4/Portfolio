@@ -7,24 +7,38 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    @media (max-width: 499px) {
+        height: auto;
+    }
 
     h3 {
         font-size: 28px ;
+        @media (max-width: 499px) {
+            font-size: 24px;;
+        }
     }
 
     .contactAndLinks {
         display: flex;
         justify-content: center;
         width: 100%;
+        @media (max-width: 499px) {
+           flex-direction: column;
+           align-items: center;
+        }
 
         .contact {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            text-align: center;
             margin-right: 5%;
 
             p {
                 font-size: 20px;
+                @media (max-width: 499px) {
+                    font-size: 16px;
+                }
             }
         }
 
@@ -32,13 +46,24 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            @media (max-width: 499px) {
+                margin-bottom: 5%;
+            }
             .logoGithub {
                 background-color: white;
                 height: 3.2em;
+                @media (max-width: 499px) {
+                    height: 4em;
+                }
+                
             }
             .logoLinkedin {
                 background-color: white;
                 height: 3.2em;
+                @media (max-width: 499px) {
+                    margin-bottom: 10%;
+                    height: 4em;
+                }
             }
         
         }

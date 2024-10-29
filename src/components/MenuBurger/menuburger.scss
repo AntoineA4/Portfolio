@@ -9,6 +9,10 @@
     justify-content: space-between;
     z-index: 1001;
     padding-right: 2%;
+    @media (max-width: 499px) {
+      width: 24px;
+      height: 24px;
+  }
   
     .line {
       background-color: #333;
@@ -30,6 +34,10 @@
     transition: right 0.5s ease;
     z-index: 10000;
     overflow-y: auto; 
+    @media (max-width: 499px) {
+      width: 150px;
+      
+  }
 
   
     &.open {
@@ -39,7 +47,7 @@
     .nav-links {
       list-style: none;
       padding: 0;
-      margin: 0;
+      margin: 10% 0% 0% 0%;
       text-align: center;
 
       .logoGithub {
@@ -67,6 +75,9 @@
         color: #333;
         font-size: 18px;
         transition: color 0.3s ease;
+        @media (max-width: 499px) {
+          font-size: 16px;
+      }
   
         &:hover {
           font-weight: bold;

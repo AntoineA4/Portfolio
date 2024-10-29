@@ -11,6 +11,9 @@
     align-items: center;
     padding-right: 2%;
     z-index: 3000;
+    @media (max-width: 499px) {
+      height: 3.6em;
+  }
 
     .language-container {
         display: flex;
@@ -23,6 +26,9 @@
             color: white;
             font-size: 18px;
             cursor: pointer;
+            @media (max-width: 499px) {
+              font-size: 14px;
+          }
           }
           
           .language-button.active {
