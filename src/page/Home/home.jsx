@@ -4,6 +4,7 @@ import projectData from '../../Data/project.json';
 import Header from '../../components/Header/header';
 import portrait from '../../assets/photos/portrait.jpg';
 import Card from '../../components/cards/cards';
+import SkillTree from '../../components/skillTree/skillTree';
 import '../Home/home.scss'; 
 
 function Home() {
@@ -17,6 +18,10 @@ function Home() {
             <div className="intro-container">
                 <img src={portrait} alt='Antoine Gadrat' className='photoAntoine' />
                 <p>{t('intro')}</p>
+            </div>
+            <div className='skilltree-container'>
+                <h2>{t('skills')}</h2>
+                <SkillTree />
             </div>
             <div className="portfolio-container" id="portfolio">
                 <h2>Portfolio</h2>

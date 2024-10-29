@@ -40,6 +40,17 @@ body {
             object-fit: cover;
         }
     }
+    .skilltree-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        height: 30em; 
+        background-color: #FFF1E9;
+        margin-top: 2rem;
+        border: 1px solid #ccc;
+
+    }
     .portfolio-container{
         height: 20em;
         background-color: #FFF1E9;

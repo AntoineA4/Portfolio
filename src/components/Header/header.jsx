@@ -2,8 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { useTranslation } from 'react-i18next';
 import '../Header/header.scss';
-import githubLogo from '../../assets/logo/github-mark.png';
-import logoLinkedin from '../../assets/logo/In-Blue-40.png';
 import BurgerMenu from '../MenuBurger/menuburger';
 
 function Header() {
