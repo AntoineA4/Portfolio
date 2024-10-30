@@ -7,6 +7,7 @@
         font-size: 16px;
     }
 }
+$MainColor: #FFF1E9;
 
 body { 
     background-image: url(../../assets/photos/pexels-florian-holly-2584321-6308163.jpg);
@@ -64,7 +65,7 @@ body {
     }
     .intro-container {
         height: 20em;
-        background-color: #FFF1E9;
+        background-color: $MainColor;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -98,14 +99,14 @@ body {
         width: 90%;
         height: 30em; 
         margin-top: 5%;
-        background-color: #FFF1E9;
+        background-color: $MainColor;
         margin-top: 2rem;
         border: 1px solid #ccc;
 
     }
     .portfolio-container{
         height: 22em;
-        background-color: #FFF1E9;
+        background-color: $MainColor;
         margin-top: 5%;
         display: flex;
         flex-direction: column;
@@ -114,7 +115,7 @@ body {
         @media (max-width: 499px) {
             height: auto;
         }
-        @media (min-width: 500px) and (max-width: 1024px) {
+        @media (min-width: 500px) and (max-width: 1200px) {
             height: auto;
         }
 
@@ -125,7 +126,7 @@ body {
                 align-items: center;
                 margin-bottom: 7%;
             }
-            @media (min-width: 500px) and (max-width: 1024px) {
+            @media (min-width: 500px) and (max-width: 1200px) {
                 flex-wrap: wrap;
                 justify-content: center;
             }
@@ -133,7 +134,7 @@ body {
     }
     .Apropos-container {
         height: auto;
-        background-color: #FFF1E9;
+        background-color: $MainColor;
         margin-top: 5%;
         display: flex;
         flex-direction: column;
