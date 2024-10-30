@@ -29,6 +29,9 @@
             @media (max-width: 499px) {
               font-size: 14px;
           }
+          @media (min-width: 500px) and (max-width: 820px) {
+            font-size: 16px;
+        }
           }
           
           .language-button.active {

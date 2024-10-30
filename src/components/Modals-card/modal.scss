@@ -19,6 +19,7 @@
     max-width: 600px;
     position: relative;
     text-align: center;
+    z-index: 1001;
     @media (max-width: 499px) {
         width: 60%;
     

@@ -13,8 +13,12 @@
     @media (max-width: 499px) {
         margin:20px 10px 0px 10px;
         width: 85%;
-
     }
+    @media (min-width: 500px) and (max-width: 1024px) {
+        width: 25%;
+    }
+    
+    
 
     .card-cover {
         width: 100%;
