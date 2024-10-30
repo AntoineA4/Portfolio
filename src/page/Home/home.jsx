@@ -34,6 +34,7 @@ function Home() {
                             cover={project.cover}
                             description={project.description}
                             tags={project.tags}
+                            link={project.link}
                         />
                     ))}
                 </div>
