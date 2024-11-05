@@ -33,6 +33,7 @@ function Home() {
                             title={project.title}
                             cover={project.cover}
                             description={project.description}
+                            difficulties={project.difficulties}
                             tags={project.tags}
                             link={project.link}
                         />

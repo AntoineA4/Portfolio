@@ -4,7 +4,7 @@ import '../cards/cards.scss';
 import PropTypes from 'prop-types';
 import Modal from '../../components/Modals-card/modal'; 
 
-function Card({ id, title, cover, description, tags, link }) {
+function Card({ id, title, cover, description, difficulties, tags, link }) {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const { i18n } = useTranslation();
 
@@ -18,6 +18,7 @@ function Card({ id, title, cover, description, tags, link }) {
 
     const localCover = require(`../../assets/photos/${id}.png`); 
     const currentDescription = description[i18n.language] || description['en'];
+    const currentDifficulties= difficulties[i18n.language] || difficulties['en'];
 
     return (
         <>
@@ -30,6 +31,7 @@ function Card({ id, title, cover, description, tags, link }) {
                 title={title} 
                 cover={localCover} 
                 description={currentDescription} 
+                difficulties={currentDifficulties}
                 tags={tags} 
                 link={link}
                 onClose={closeModal} 
@@ -43,6 +45,7 @@ Card.propTypes = {
     title: PropTypes.string.isRequired,
     cover: PropTypes.string.isRequired, 
     description: PropTypes.string.isRequired,
+    difficulties: PropTypes.string.isRequired,
     tags: PropTypes.arrayOf(PropTypes.string).isRequired, 
     link: PropTypes.string.isRequired,
 };
