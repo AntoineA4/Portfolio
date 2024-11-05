@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9a78aab0.css",
+    "main.js": "/static/js/main.7156eb44.js",
+    "static/media/8ct676a4.png": "/static/media/8ct676a4.7070e703b9080b1c88ef.png",
+    "static/media/b9126394.png": "/static/media/b9126394.6ac8b6cdb3ba1c154b6d.png",
+    "static/media/y45l62uu.png": "/static/media/y45l62uu.940991b3379e9928049e.png",
+    "static/media/7op85j55.png": "/static/media/7op85j55.f19f685359f594e58e02.png",
+    "static/media/d69ab4a4.png": "/static/media/d69ab4a4.92c95f93d723931e3434.png",
+    "static/media/pexels-florian-holly-2584321-6308163.jpg": "/static/media/pexels-florian-holly-2584321-6308163.032544e6ad7175ba46bf.jpg",
+    "static/media/logoSass.png": "/static/media/logoSass.16528ec7bae9aa546280.png",
+    "static/media/resume.pdf": "/static/media/resume.5cb94eed6a37c5d9dab9.pdf",
+    "static/media/portrait.jpg": "/static/media/portrait.176fd74b1e5f8119e339.jpg",
+    "static/media/logoJS.png": "/static/media/logoJS.fb3981513a291f32b51d.png",
+    "index.html": "/index.html",
+    "main.9a78aab0.css.map": "/static/css/main.9a78aab0.css.map",
+    "main.7156eb44.js.map": "/static/js/main.7156eb44.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a78aab0.css",
+    "static/js/main.7156eb44.js"
+  ]
+}
