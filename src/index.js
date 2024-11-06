@@ -10,7 +10,7 @@ const root = createRoot(container);
 
 root.render(
   <React.StrictMode>
-    <Router>
+    <Router basename="/Portfolio">
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
