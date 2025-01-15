@@ -13,11 +13,11 @@ i18n
             "title": "Web Developer",
             "home": "Home",
             "resume": "My Resume",
-            "intro": "Newly graduated web developer, I am constantly seeking for new opportunities to enhance my skills. My strong curiosity, diligent work ethic and communication abilities make me a valuable asset to your company and projects. I am available immediately for any type of contract in France, Japan, or elsewhere in the world.",
+            "intro": "Newly graduated web developer, I am constantly seeking for new opportunities to enhance my skills. My strong curiosity, diligent work ethic and communication abilities make me a valuable asset to your company and projects. I am available immediately for any type of position in France, Japan, or elsewhere in the world.",
             "skills": "My Skills",
             "about": "About Me",
-            "about-text": "First, I graduated with a degree in Physical Measurements then a Sound Engineer bachelor degree, beginning my career as an assistant and sound engineer in the audiovisual industry. I then fulfilled a lifelong dream by spending a year discovering Japan. During this experience, I developed a passion for web development and programming. Now, with a government-recognized qualification as a web developer, I am seeking a new position where I can fully thrive. ",
-            "about-text2": "Outside of programming, I have a passion for video games, music, and bouldering. These activities allow me to clear my mind and also fuel my creativity. ",
+            "about-text": "First, I graduated with a degree in Physical Measurements then a Bachelor's degree in Sound Engineering, beginning my career as an assistant and sound engineer in the audiovisual industry. I then fulfilled a lifelong dream by spending a year discovering Japan. During this experience, I developed a passion for web development and programming. Now, with a government-recognized qualification as a web developer, I am seeking a new position where I can fully hone my skills and contribute to company's projects. ",
+            "about-text2": "Outside of programming, I have a passion for video games, music, and bouldering. These activities allow me to wind down and also fuel my creativity. ",
             "link": "Link to repo GitHub"
           }
       },
